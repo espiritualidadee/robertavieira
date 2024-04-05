@@ -11,8 +11,7 @@ $(document).ready(function () {
 
       if(currentTime >= durationTime){
         $('#showtime').addClass('act');
-		console.log("cai aqui");
-        window.location.href = 'https://api.whatsapp.com/send?phone=5579996832536&text=Quero%20minha%20consulta%20amorosa%20';
+        
       }
 
     
