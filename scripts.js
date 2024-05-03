@@ -2,20 +2,7 @@
 
 
 $(document).ready(function () {
-    var audio = document.getElementById('track');
-    audio.addEventListener('timeupdate', function () {
-    
-      var currentTime = Math.round(audio.currentTime);
-       var durationTime = Math.round(audio.duration) - 2;
-
-
-      if(currentTime >= durationTime){
-        $('#showtime').addClass('act');
-        
-      }
-
-    
-    }, false);
+     $('#showtime').addClass('act');
 });
 
 
